@@ -87,7 +87,7 @@ A modern, full-featured blogging platform with a **React + TipTap** frontend and
 
 ### Comments
 
-![Comments](assets/comments2.png)
+![Comments](assets/comment.png)
 
 ### Editor
 
@@ -107,7 +107,7 @@ A modern, full-featured blogging platform with a **React + TipTap** frontend and
 
 ### Search
 
-![Blog Search](assets/search.png)
+![Blog Search](assets/search2.png)
 
 ### Notifications
 
