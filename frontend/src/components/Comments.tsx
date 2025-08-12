@@ -6,9 +6,16 @@ interface CommentsBind {
   name: string;
   createdAt: string;
   content: string;
+  width: string;
 }
 
-export function Comments({ avatar, name, createdAt, content }: CommentsBind) {
+export function Comments({
+  avatar,
+  name,
+  createdAt,
+  content,
+  width,
+}: CommentsBind) {
   return (
     <div className=" mt-5 pb-5 border-b-2 border-gray-100">
       <div className="flex justify-between">
@@ -38,7 +45,7 @@ export function Comments({ avatar, name, createdAt, content }: CommentsBind) {
           </svg>
         </div>
       </div>
-      <div className="text-wrap pr-3 mt-4 w-2xl">{content}</div>
+      <div className={`text-wrap pr-3 mt-4 w-${width}`}>{content}</div>
     </div>
   );
 }

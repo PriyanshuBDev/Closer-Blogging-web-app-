@@ -201,6 +201,7 @@ export function Blog() {
                   avatar={comment.user.profile?.imageUrl}
                   content={comment.comment}
                   createdAt={comment.createdAt}
+                  width="2xl"
                 />
               ))}
               <div>
@@ -289,7 +290,7 @@ export function Blog() {
                 </div>
               </div>
             </div>
-            <div className="mt-5 ">
+            <div className="mt-5">
               {blog.comments.length > 0 ? (
                 blog.comments.map((comment) => (
                   <Comments
@@ -298,6 +299,7 @@ export function Blog() {
                     avatar={comment.user.profile?.imageUrl}
                     content={comment.comment}
                     createdAt={comment.createdAt}
+                    width="[26rem]"
                   />
                 ))
               ) : (
